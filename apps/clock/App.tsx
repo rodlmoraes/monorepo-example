@@ -8,14 +8,14 @@ export default function App() {
   return (
     <PaperProvider>
       <View style={{alignItems: 'center', justifyContent: 'center', flex: 1}}>
-        <Text style={{fontSize: 24}}>FIRST {title}</Text>
+        <Text style={{fontSize: 24}}>SECOND {title}</Text>
         <Text style={{fontSize: 16, marginVertical: 16}}>
-          {'1 + 1 = '}
-          {add(1, 1)}
+          {'3 + 3 = '}
+          {add(3, 3)}
         </Text>
         <Text style={{fontSize: 16, marginVertical: 16}}>
-          {'2 * 2 = '}
-          {multiply(2, 2)}
+          {'4 * 4 = '}
+          {multiply(4, 4)}
         </Text>
       </View>
     </PaperProvider>

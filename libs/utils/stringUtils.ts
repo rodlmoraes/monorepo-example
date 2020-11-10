@@ -1,3 +1,3 @@
-const title = 'First Monorepo App';
+const title = 'Monorepo App';
 
 export { title };
