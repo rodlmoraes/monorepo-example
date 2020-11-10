@@ -1,10 +1,10 @@
 import React from 'react';
 import {title} from '@monorepo-example/utils/stringUtils';
 import {Text, View} from 'react-native';
-import {add} from '@monorepo-example/utils/mathUtils';
-import {Provider as PaperProvider, Button} from 'react-native-paper';
+import {add, multiply} from '@monorepo-example/utils/mathUtils';
+import {Provider as PaperProvider} from 'react-native-paper';
 
-const App = () => {
+export default function App() {
   return (
     <PaperProvider>
       <View style={{alignItems: 'center', justifyContent: 'center', flex: 1}}>
@@ -13,10 +13,11 @@ const App = () => {
           {'1 + 1 = '}
           {add(1, 1)}
         </Text>
-        <Button mode="contained">Hello</Button>
+        <Text style={{fontSize: 16, marginVertical: 16}}>
+          {'2 * 2 = '}
+          {multiply(2, 2)}
+        </Text>
       </View>
     </PaperProvider>
   );
-};
-
-export default App;
+}
