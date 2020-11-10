@@ -2,6 +2,7 @@ import React from 'react';
 import {title} from '@monorepo-example/utils/stringUtils';
 import {Text, View} from 'react-native';
 import {add, multiply} from '@monorepo-example/utils/mathUtils';
+import {Counter} from '@monorepo-example/components';
 import {Provider as PaperProvider} from 'react-native-paper';
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
           {'2 * 2 = '}
           {multiply(2, 2)}
         </Text>
+        <Counter />
       </View>
     </PaperProvider>
   );

@@ -9,6 +9,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@monorepo-example/components": "1.0.0",
     "@monorepo-example/utils": "1.0.0",
     "react": "16.9.0",
     "react-native": "0.61.5",
