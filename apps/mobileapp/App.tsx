@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import React from 'react';
 import {title} from '@monorepo-example/utils/stringUtils';
 import {Text, View} from 'react-native';

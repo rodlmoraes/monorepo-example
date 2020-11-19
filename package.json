@@ -7,6 +7,7 @@
   "author": "Thibault Malbranche <thibault.malbranche@epitech.eu>",
   "license": "MIT",
   "dependencies": {
+    "@babel/runtime": "^7.12.5",
     "react-native": "*"
   },
   "devDependencies": {

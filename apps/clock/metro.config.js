@@ -1,6 +1,6 @@
 const path = require('path');
 
-module.exports = {
+const getConfig = async () => ({
   watchFolders: [path.resolve(__dirname, '../../')],
   transformer: {
     getTransformOptions: async () => ({
@@ -10,4 +10,6 @@ module.exports = {
       },
     }),
   },
-};
+});
+
+module.exports = getConfig();
